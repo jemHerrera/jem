@@ -35,7 +35,7 @@ defineProps<ExperienceProps>();
         <UBadge color="grey" variant="soft">{{ e.duration }}</UBadge>
       </div>
       <p class="text-grey-500 mb-4">{{ e.blurb }}</p>
-      <h4 class="text-lg mb-2">Projects</h4>
+      <h4 class="text-lg mb-2">Contributions</h4>
       <ul class="flex flex-wrap gap-4 md:gap-0">
         <li v-for="p in e.projects" class="md:basis-1/2 md:pr-4">
           <UButton

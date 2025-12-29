@@ -32,8 +32,8 @@ const social: Button[] = [
 ];
 
 const intro: string[] = [
-  "I'm a Full Stack Developer from Canada. I like building web-based products and software.",
-  "I also like studying Japanese, practicing Brazilian Jiu Jitsu, and creating random cool stuff.",
+  "I'm a software dev from Canada. I like creating, tinkering and exploring.",
+  "I'm also a BJJ purple belt, a home cook, an art lover, and Japanese language learner.",
 ];
 
 const tech: TechProps = {
@@ -42,14 +42,14 @@ const tech: TechProps = {
     "Node.js",
     "TypeScript",
     "Nuxt",
-    "Vue",
+    "Next",
     "Tailwind",
     "tRPC",
-    "Zod",
+    "Supabase",
     "Postgres",
     "MikroORM",
     "AWS",
-    "Docker",
+    "Stripe",
   ],
 };
 
@@ -60,20 +60,41 @@ const experience: ExperienceProps = {
       company: "Motiv",
       role: "Full Stack Developer",
       duration: "2023 - Present",
-      blurb:
-        "In my role at Motiv, I worked on developing websites, apps and API services.",
+      blurb: "My role in Motiv is to deliver products end-to-end.",
       projects: [
         {
-          title: "Huddl",
-          link: "https://www.huddl.app/",
-          blurb:
-            "Huddl is an app for event attendees to network and participate in gamified activities to enhance their experience.",
+          title: "Resin8",
+          link: "http://app.resin8.ai/",
+          blurb: "Resin8 is an AI powered industrial marketplace.",
         },
         {
           title: "Topshelf Hockey",
           link: "https://apps.apple.com/ca/app/topshelf-hockey/id6550889494",
           blurb:
-            "Topshelf Hockey is a mobile app for hockey enthusiasts, delivering real-time league updates.",
+            "Topshelf Hockey is a mobile app for hockey enthusiasts, delivering real-time updates.",
+        },
+        {
+          title: "Airsprint Platform",
+          link: "https://airsprint.com/",
+          blurb:
+            "Airsprint is a Canadian aviation company where you can fractionally own and book private jets.",
+        },
+        {
+          title: "Okliko",
+          link: "https://okliko.com/",
+          blurb:
+            "Okliko is an AI concierge for consumer products and services.",
+        },
+        {
+          title: "Huddl",
+          link: "https://www.huddl.app/",
+          blurb:
+            "Huddl is an app for event attendees to network and participate in activities to enhance their experience.",
+        },
+        {
+          title: "Okliko",
+          link: "http://app.resin8.ai/",
+          blurb: "Resin8 is an AI powered industrial marketplace.",
         },
       ],
     },
@@ -102,17 +123,17 @@ const projects: ProjectsProps = {
   blurb: "A collection of random dev hobbies.",
   projects: [
     {
-      title: "Bengo",
+      title: "Nuptine",
       description:
-        "Bengo utilizes LLMs to create a conversational AI specifically designed for language learning. The repository is a monorepo consisting of dockerized Express and Nuxt applications.",
+        "A lightweight uptime-monitoring SaaS. Built with Next.js, Supabase, AWS SES and Stripe.",
       image: {
-        src: "bengo.png",
-        alt: "Bengo Logo",
+        src: "nuptine.png",
+        alt: "Nuptine Logo",
       },
-      tags: ["Express", "Postgres", "Nuxt", "Langchain"],
+      tags: ["Vercel", "Postgres", "Supabase", "AWS", "Stripe"],
       links: [
         {
-          to: "https://github.com/jemHerrera/bengo",
+          to: "https://nuptine.com",
           icon: "pixelarticons:github",
           variant: "ghost",
           size: "xl",
@@ -139,32 +160,6 @@ const projects: ProjectsProps = {
         },
         {
           to: "https://github.com/jemHerrera/scriddish",
-          icon: "pixelarticons:github",
-          variant: "ghost",
-          size: "xl",
-        },
-      ],
-    },
-    {
-      title: "Blackjack",
-      description:
-        "A game of Blackjack in the browser. Powered by VueJs and DeckofCards API.",
-      image: {
-        src: "chip-vue.png",
-        alt: "Vue chip logo",
-      },
-      tags: ["Vue"],
-      links: [
-        {
-          label: "View project",
-          to: "https://jemherrera.github.io/blackjack-game/",
-          icon: "pixelarticons:external-link",
-          variant: "link",
-          trailing: true,
-          padded: false,
-        },
-        {
-          to: "https://github.com/jemHerrera/blackjack-game",
           icon: "pixelarticons:github",
           variant: "ghost",
           size: "xl",
