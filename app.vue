@@ -91,11 +91,6 @@ const experience: ExperienceProps = {
           blurb:
             "Huddl is an app for event attendees to network and participate in activities to enhance their experience.",
         },
-        {
-          title: "Okliko",
-          link: "http://app.resin8.ai/",
-          blurb: "Resin8 is an AI powered industrial marketplace.",
-        },
       ],
     },
     {
