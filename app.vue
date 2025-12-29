@@ -133,10 +133,12 @@ const projects: ProjectsProps = {
       tags: ["Vercel", "Postgres", "Supabase", "AWS", "Stripe"],
       links: [
         {
+          label: "View online",
           to: "https://nuptine.com",
-          icon: "pixelarticons:github",
-          variant: "ghost",
-          size: "xl",
+          icon: "pixelarticons:external-link",
+          variant: "link",
+          trailing: true,
+          padded: false,
         },
       ],
     },
